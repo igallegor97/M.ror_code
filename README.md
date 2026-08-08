@@ -44,7 +44,7 @@ Builds chromosome-scale pangenome graphs with [Cactus](https://github.com/Compar
 
 ## `PGGB/` — PGGB pipeline
 
-Builds reference-free pangenome graphs and derives variants, community structure, and population-genetics summaries.
+Builds reference-free pangenome graphs and derives variants, community structure, and population-genetics summaries using [PGGB](https://github.com/pangenome/pggb)
 
 | Script | Purpose |
 |---|---|
