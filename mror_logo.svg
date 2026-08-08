@@ -1,0 +1,54 @@
+<svg width="680" height="480" viewBox="0 0 680 480" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Pastel woven ribbons with repositioned mycelial threads</title>
+<desc>Five wide, gently curved pastel ribbons in lavender, mint, peach, pink, and soft gold. Three mycelial threads cross the ribbons: a thin gold thread near the left edge, a medium dusty-rose thread centered in the middle, and a thicker soft-teal thread on the right kept in its previous position.</desc>
+<defs>
+<linearGradient id="n1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#CECBF6"/><stop offset="100%" stop-color="#AFA9EC"/></linearGradient>
+<linearGradient id="n2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#9FE1CB"/><stop offset="100%" stop-color="#5DCAA5"/></linearGradient>
+<linearGradient id="n3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F5C4B3"/><stop offset="100%" stop-color="#F0997B"/></linearGradient>
+<linearGradient id="n4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F4C0D1"/><stop offset="100%" stop-color="#ED93B1"/></linearGradient>
+<linearGradient id="n5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FAC775"/><stop offset="100%" stop-color="#EF9F27"/></linearGradient>
+</defs>
+<g opacity="0.9">
+<path d="M10,80 C150,45 250,100 340,85 C440,68 540,35 660,60 L660,105 C540,80 440,115 340,130 C250,145 150,90 10,115 Z" fill="url(#n1)"/>
+<path d="M10,150 C150,180 250,140 340,160 C440,180 540,215 660,190 L660,235 C540,270 440,240 340,220 C250,200 150,235 10,205 Z" fill="url(#n2)"/>
+<path d="M10,240 C150,215 250,270 340,258 C440,246 540,215 660,235 L660,275 C540,255 440,285 340,297 C250,308 150,280 10,300 Z" fill="url(#n3)"/>
+<path d="M10,315 C150,340 250,300 340,318 C440,336 540,362 660,340 L660,380 C540,405 440,382 340,364 C250,346 150,378 10,355 Z" fill="url(#n4)"/>
+<path d="M10,385 C150,362 250,415 340,405 C440,395 540,362 660,382 L660,420 C540,400 440,432 340,442 C250,452 150,425 10,445 Z" fill="url(#n5)"/>
+</g>
+<!-- Thread 1: near left edge, thin gold, tight double forks -->
+<g stroke="#D9A441" fill="none" opacity="0.7" stroke-linecap="round">
+<path d="M60,100 C68,140 72,175 82,205 C92,232 108,255 128,272" stroke-width="1.54"/>
+<path d="M82,205 C95,225 110,240 128,250" stroke-width="0.84"/>
+<path d="M128,272 C140,290 154,305 170,316" stroke-width="1.54"/>
+<path d="M82,205 C70,222 56,236 40,246" stroke-width="0.84"/>
+<path d="M128,250 C114,262 98,272 82,280" stroke-width="0.7"/>
+<path d="M170,316 C158,332 144,346 128,358" stroke-width="0.7"/>
+</g>
+<g fill="#D9A441">
+<circle cx="60" cy="100" r="6.5"/><circle cx="82" cy="205" r="6.5"/><circle cx="128" cy="272" r="6.5"/><circle cx="170" cy="316" r="5.85"/>
+<circle cx="128" cy="250" r="3.9"/><circle cx="40" cy="246" r="3.51"/><circle cx="82" cy="280" r="3.51"/><circle cx="128" cy="358" r="3.51"/>
+</g>
+<!-- Thread 2: centered, medium dusty rose, wider looser forks -->
+<g stroke="#C97A93" fill="none" opacity="0.7" stroke-linecap="round">
+<path d="M290,90 C296,130 304,168 318,198 C330,222 345,240 360,252" stroke-width="2.24"/>
+<path d="M318,198 C335,208 352,214 369,214" stroke-width="1.26"/>
+<path d="M360,252 C375,266 391,276 407,280" stroke-width="2.24"/>
+<path d="M318,198 C303,214 286,226 267,232" stroke-width="1.26"/>
+<path d="M369,214 C382,222 393,232 401,246" stroke-width="0.98"/>
+<path d="M407,280 C395,296 381,310 363,318" stroke-width="0.98"/>
+</g>
+<g fill="#C97A93">
+<circle cx="290" cy="90" r="7.8"/><circle cx="318" cy="198" r="7.8"/><circle cx="360" cy="252" r="7.8"/><circle cx="407" cy="280" r="7.15"/>
+<circle cx="369" cy="214" r="4.42"/><circle cx="267" cy="232" r="4.42"/><circle cx="401" cy="246" r="3.9"/><circle cx="363" cy="318" r="3.9"/>
+</g>
+<!-- Thread 3: right, thicker soft teal, fewer long sweeping branches — unchanged -->
+<g stroke="#5FAF9C" fill="none" opacity="0.7" stroke-linecap="round">
+<path d="M520,75 C529,130 537,185 552,232 C564,266 580,292 598,308" stroke-width="2.94"/>
+<path d="M552,232 C568,238 583,236 596,226" stroke-width="1.54"/>
+<path d="M598,308 C608,332 616,354 622,378" stroke-width="1.54"/>
+</g>
+<g fill="#5FAF9C">
+<circle cx="520" cy="75" r="8.45"/><circle cx="552" cy="232" r="8.45"/><circle cx="598" cy="308" r="7.8"/>
+<circle cx="596" cy="226" r="4.68"/><circle cx="622" cy="378" r="4.68"/>
+</g>
+</svg>
