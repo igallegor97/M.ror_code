@@ -1,0 +1,7 @@
+sample_id	proteome_fasta
+PacBio_1	/ABSOLUTE/PATH/TO/PacBio_1.proteins.faa
+PacBio_2	/ABSOLUTE/PATH/TO/PacBio_2.proteins.faa
+PacBio_3	/ABSOLUTE/PATH/TO/PacBio_3.proteins.faa
+PacBio_4	/ABSOLUTE/PATH/TO/PacBio_4.proteins.faa
+PacBio_5	/ABSOLUTE/PATH/TO/PacBio_5.proteins.faa
+
