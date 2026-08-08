@@ -1,3 +1,5 @@
+<img src="mror_logo.svg" width="500"> 
+
 # Construction and Analysis of the *Moniliophthora roreri* pangenome
 
 Code repository for a Master's thesis on the genomic diversity of *Moniliophthora roreri*, the causal agent of frosty pod rot in cacao. The project combines two graph-based pangenome construction tools, comparative genomics, functional annotation, and population-structure analyses across a dataset of 24 genome assemblies (5 chromosome-scale PacBio genomes and 19 additional Illumina genomes).
