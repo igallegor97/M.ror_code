@@ -1,4 +1,5 @@
-<img src="mror_logo.svg" width="500"> 
+![Logo](mror_logo_with_title_v2.svg#gh-light-mode-only)
+![Logo](mror_logo_with_title_v2_dark.svg#gh-dark-mode-only)
 
 # Construction and Analysis of the *Moniliophthora roreri* pangenome
 
