@@ -1,0 +1,12 @@
+community	chromosome	syntenic_group	mapping_type	chromosome_length_bp	start_bp	end_bp	note
+community.0	Group10	Group10	partial_or_ambiguous	5176161	0	5176161	Contains C26/CO8/CO84/E7 Group10; B3 Group10 is in community.1. Also contains CO84 Ungrouped2 and E7 Ungrouped6/Ungrouped7.
+community.1	Group2	Group2;B3_Group10	mixed_assignment	6904614	0	6904614	Contains Group2 from all five PacBio genomes plus B3 Group10. Treat primarily as Group2 but retain mixed-assignment warning.
+community.2	Group11	Group11	chromosome_scale	4846211	0	4846211	Contains Group11 from all five PacBio genomes.
+community.3	Group9	Group9	chromosome_scale	3931278	0	3931278	Contains Group9 from all five PacBio genomes.
+community.4	Group1	Group1	chromosome_scale	10453569	0	10453569	Contains Group1 from all five PacBio genomes. Also contains CO84 Ungrouped1 and E7 Ungrouped5.
+community.5	Group7	Group7	chromosome_scale	5748763	0	5748763	Contains Group7 from all five PacBio genomes.
+community.6	Group4	Group4	chromosome_scale	4373316	0	4373316	Contains Group4 from all five PacBio genomes.
+community.7	Group8	Group8	chromosome_scale	6364937	0	6364937	Contains Group8 from all five PacBio genomes; no retained SNPs in the final matrix.
+community.8	Group6	Group6	chromosome_scale	3565931	0	3565931	Contains Group6 from all five PacBio genomes. Also contains E7 Ungrouped2. Largest retained SNP contribution.
+community.9	Group5	Group5	chromosome_scale	4626684	0	4626684	Contains Group5 from all five PacBio genomes. Also contains E7 Ungrouped3/Ungrouped4/Ungrouped9/Ungrouped10; no retained SNPs in the final matrix.
+community.12	Group3	Group3	chromosome_scale	3581965	0	3581965	Contains Group3 from all five PacBio genomes; no retained SNPs in the final matrix.

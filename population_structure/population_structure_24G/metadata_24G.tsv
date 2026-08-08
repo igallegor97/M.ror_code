@@ -1,0 +1,25 @@
+sample_id	country	region_state	year	genome_size_mb	technology	origin
+C26	Costa Rica	Guayabo Abajo, Cartago	1999	59.6	PacBio	https://doi.org/10.1093/g3journal/jkad125
+B3	Bolivia	Porvenir, Caranavi, La Paz	2012	57.5	PacBio	https://doi.org/10.1093/g3journal/jkad125
+P5	Peru	Castillo Papayal, Huanuco	1997	57.7	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Co52	Colombia	Lebrija, Santander	2006	56.5	Illumina	https://doi.org/10.1093/g3journal/jkad125
+E7	Ecuador	Mocache, Los Rios	1999	57.4	PacBio	https://doi.org/10.1093/g3journal/jkad125
+Co44	Colombia	San Jeronimo, Antioquia	2006	57.8	Illumina	https://doi.org/10.1093/g3journal/jkad125
+CO8	Colombia	San Jeronimo, Antioquia	1999	58.2	PacBio	https://doi.org/10.1093/g3journal/jkad125
+Co29	Colombia	La Suiza, Copoica, Santander	2004	57.5	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Co82	Colombia	Lebrija, Santander	2006	56.9	Illumina	https://doi.org/10.1093/g3journal/jkad125
+CO84	Colombia	Tumaco, Narino	2006	56.8	PacBio	https://doi.org/10.1093/g3journal/jkad125
+Co25	Colombia	Rio Negro, Santander	2004	57.8	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Co74	Colombia	El Carmen de Chucuri, Santander	2006	57.6	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Co12	Colombia	Palestina, Caldas	1999	57.5	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Co43	Colombia	Taraza, Antioquia	2006	58.2	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Co45	Colombia	Valdivia, Antioquia	2006	57.2	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Co58	Colombia	Caparrapi, Cundinamarca	2006	56.5	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Co65	Colombia	Bucarasica, Norte de Santander	2006	57.6	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Co67	Colombia	Marsella, Risaralda	2006	57.5	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Mr017	Ecuador	Cerecita, Guayas	2019	57.6	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Mr020	Ecuador	Buena Fe, Los Rios	2019	57.8	Illumina	https://doi.org/10.1093/g3journal/jkad125
+Mr030	Ecuador	Mocache, Los Rios	2019	57.4	Illumina	https://doi.org/10.1093/g3journal/jkad125
+A4295	Costa Rica	Unknown	1978	57.5	Illumina	https://doi.org/10.1093/g3journal/jkad125
+MCA2952	Mexico	Chiapas	2005	59.5	Illumina	https://doi.org/10.1094/PHYTOFR-11-22-0128-A
+MCA2997	Ecuador	Los Rios	2013	52.2	Illumina	https://doi.org/10.1186/1471-2164-15-164

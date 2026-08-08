@@ -1,0 +1,24 @@
+sample_id	country	region_state	latitude	longitude	coordinate_precision	coordinate_source	notes
+C26	Costa Rica	Guayabo Abajo, Cartago	9.94251	-83.64121	locality	Waze (Escuela Guayabo Abajo, Ruta 415) / Mapcarta	Verified by the user; Santa Teresita district, Turrialba canton
+B3	Bolivia	Porvenir, Caranavi, La Paz	-15.6667	-67.5000	locality	Instituto Geografico Militar Bolivia, topographic sheet 6046-I Caranavi 1:50,000	Coordinates represent the map quadrant containing Colonia Porvenir A; not an exact settlement GPS point
+P5	Peru	Castillo Papayal, Huanuco	-9.239666	-76.012220	locality	DePeru.com (Centro Poblado El Papayal, Castillo Grande district, Leoncio Prado province)	Castillo plus Papayal correspond to the official populated center El Papayal
+Co52	Colombia	Lebrija, Santander	7.1138	-73.2174	municipality	Mapcarta / GeoNames	Municipal center
+E7	Ecuador	Mocache, Los Rios	-1.18385	-79.50553	municipality	Wikipedia (Mocache Canton)	Canton centroid
+Co44	Colombia	San Jeronimo, Antioquia	6.4433	-75.7217	municipality	EcuRed / municipal government	Municipal center
+CO8	Colombia	San Jeronimo, Antioquia	6.4433	-75.7217	municipality	EcuRed / municipal government	Same coordinates as Co44
+Co29	Colombia	La Suiza (AGROSAVIA C.I. La Suiza), Rionegro, Santander	7.3700	-73.1942	locality	Osorio-Guarin et al. 2017, PMC5702303; confirmed by local address	AGROSAVIA La Suiza Research Center
+Co82	Colombia	Lebrija, Santander	7.1138	-73.2174	municipality	Mapcarta / GeoNames	Same coordinates as Co52
+CO84	Colombia	Tumaco, Narino	1.80667	-78.76472	municipality	Wikipedia	Municipal center
+Co25	Colombia	Rio Negro, Santander	7.1536	-73.1536	municipality	Wikipedia (Rionegro, Santander)	Do not confuse with Rionegro, Antioquia
+Co74	Colombia	El Carmen de Chucuri, Santander	6.6981	-73.5111	municipality	Wikipedia / Wikidata	Municipal center
+Co12	Colombia	Palestina, Caldas	5.0205	-75.6224	municipality	Wikipedia	Municipal center
+Co43	Colombia	Taraza, Antioquia	7.5881	-75.4028	municipality	Wikipedia	Municipal center
+Co45	Colombia	Valdivia, Antioquia	7.2890	-75.3980	municipality	Wikipedia	Municipal center
+Co58	Colombia	Caparrapi, Cundinamarca	5.3442	-74.4917	municipality	Wikipedia	Municipal center
+Co65	Colombia	Bucarasica, Norte de Santander	8.0500	-72.8670	municipality	Wikipedia	Municipal center
+Co67	Colombia	Marsella, Risaralda	4.9370	-75.7378	municipality	Wikipedia / Wikidata	Municipal center
+Mr017	Ecuador	Cerecita, Guayas	-2.3327	-80.2699	locality	TopoNavi.com	Rural locality
+Mr020	Ecuador	Buena Fe, Los Rios	-0.89861	-79.48889	municipality	Wikipedia	Cantonal center
+Mr030	Ecuador	Mocache, Los Rios	-1.18385	-79.50553	municipality	Wikipedia	Same coordinates as E7
+MCA2952	Mexico	Chiapas	16.7570	-93.1290	state	Geocountries.com	Approximate state centroid; sensitivity analysis only
+MCA2997	Ecuador	Los Rios	-1.8000	-79.5333	state	Wikipedia (Babahoyo)	Provincial capital used as reference; sensitivity analysis only

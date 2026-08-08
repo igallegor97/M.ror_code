@@ -1,0 +1,34 @@
+=============================================================
+PGGB24 GEOGRAPHY-GENETICS — SGE JOB
+Start      : 2026-08-04 01:48:22
+Job ID     : 24427
+Node       : figsrv.bioinfo.cluster
+Threads    : 4
+Replicates : 100
+=============================================================
+=============================================================
+PGGB24 GEOGRAPHY-VERSUS-GENETICS PIPELINE
+Start          : 2026-08-04 01:48:22
+Coordinates    : /Storage/data1/isabella.gallego/MAESTRIA/code/population_structure/geography_genetics/sample_coordinates_24G.tsv
+Replicates     : 100
+Base seed      : 20260803
+SNPs/community : 0 (0 = automatic minimum)
+Output         : /Storage/data1/isabella.gallego/MAESTRIA/geography_genetics_24G
+=============================================================
+                       metric  value
+             metadata_samples     24
+              coordinate_rows     24
+        valid_coordinate_rows     23
+      missing_coordinate_rows      1
+            validation_issues      0
+locality_or_municipality_rows     21
+Spatial-genetic statistics completed.
+Spatial-genetic figures completed.
+Balanced IBD robustness completed: all11, 100 replicates, 1640 SNPs/community
+Balanced IBD robustness completed: conservative9, 100 replicates, 1640 SNPs/community
+
+=============================================================
+PIPELINE COMPLETED
+End     : 2026-08-04 01:50:04
+Results : /Storage/data1/isabella.gallego/MAESTRIA/geography_genetics_24G
+=============================================================

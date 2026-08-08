@@ -1,0 +1,25 @@
+Registered S3 method overwritten by 'proxy':
+  method   from   
+  dim.dist ecodist
+Mensagen de aviso:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Isolation by distance — all 11 communities' in 'mbcsToSbcs': - substituted for — (U+2014)
+Mensagen de aviso:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Isolation by distance — conservative 9 communities' in 'mbcsToSbcs': - substituted for — (U+2014)
+Mensagens de aviso:
+1: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Standardized genetic–geographic discrepancy' in 'mbcsToSbcs': - substituted for – (U+2013)
+2: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Pairs with strongest genetic–geographic discrepancy - all 11' in 'mbcsToSbcs': - substituted for – (U+2013)
+Mensagens de aviso:
+1: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Standardized genetic–geographic discrepancy' in 'mbcsToSbcs': - substituted for – (U+2013)
+2: In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Pairs with strongest genetic–geographic discrepancy - conservative 9' in 'mbcsToSbcs': - substituted for – (U+2013)
+Mensagen de aviso:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Balanced isolation-by-distance robustness — all11' in 'mbcsToSbcs': - substituted for — (U+2014)
+Mensagen de aviso:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  for 'Balanced isolation-by-distance robustness — conservative9' in 'mbcsToSbcs': - substituted for — (U+2014)

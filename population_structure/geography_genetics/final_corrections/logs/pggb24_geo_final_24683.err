@@ -1,0 +1,9 @@
+Registered S3 method overwritten by 'proxy':
+  method   from   
+  dim.dist ecodist
+Mensagen de aviso:
+In annotate("label", x = Inf, y = Inf, label = annotation_text,  :
+  Ignoring unknown parameters: `label.size`
+Mensagen de aviso:
+In annotate("label", x = Inf, y = Inf, label = annotation_text,  :
+  Ignoring unknown parameters: `label.size`

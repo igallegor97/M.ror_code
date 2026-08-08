@@ -1,0 +1,2 @@
+gene_id	GO	PFAM	CAZyme	secreted	effector_candidate	product
+example_gene_1	GO:0008150;GO:0003674	PF00001	GH5	TRUE	FALSE	hypothetical protein

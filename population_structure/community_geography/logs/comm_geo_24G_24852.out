@@ -1,0 +1,35 @@
+======================================================================
+COMMUNITY-LEVEL GENOMIC GEOGRAPHY PIPELINE
+Profile      : conservative9
+Minimum SNPs : 100
+Permutations : 9999
+Output       : /Storage/data1/isabella.gallego/MAESTRIA/community_geography_24G/conservative9
+======================================================================
+Per-community spatial analysis completed for profile conservative9.
+ rank   community chromosome  retained_snps  mantel_pearson_r  mantel_pearson_q  mrm_geographic_beta  mrm_geographic_q  mrm_r_squared  mrm_model_q                                      evidence_tier
+    1 community.8     Group6          16440          0.282948           0.01020             0.100083          0.006601       0.078983     0.031803 Tier 1: concordant FDR-supported geographic signal
+    2 community.5     Group7           3942          0.059676           0.29990             0.093906          0.019922       0.060716     0.061086                Tier 3: positive exploratory signal
+    3 community.3     Group9           1640          0.153498           0.23070             0.060584          0.017102       0.052001     0.061086                Tier 3: positive exploratory signal
+    4 community.6     Group4           3547          0.056397           0.29508             0.060416          0.017102       0.055564     0.057606                Tier 3: positive exploratory signal
+    5 community.4     Group1           4162          0.055495           0.29508             0.076303          0.017102       0.051700     0.057606                Tier 3: positive exploratory signal
+    6 community.2    Group11           2421          0.064182           0.29508             0.023539          0.196520       0.017153     0.266627                Tier 3: positive exploratory signal
+
+[OK] Complete ranking saved to: /Storage/data1/isabella.gallego/MAESTRIA/community_geography_24G/conservative9/02_ranking/conservative9_community_geographic_ranking.tsv
+[OK] Top-community table saved to: /Storage/data1/isabella.gallego/MAESTRIA/community_geography_24G/conservative9/02_ranking/conservative9_top_geographic_communities.tsv
+                                       metric  value
+                         analyzed_communities      6
+       analyzed_communities_with_mapping_rows      6
+analyzed_communities_with_nonempty_chromosome      6
+                               mapping_issues      0
+null device 
+          1 
+Community/chromosome contribution figures completed.
+Annotated 32152 SNP features.
+[WARNING] Functional annotation table not found:
+          /Storage/data1/isabella.gallego/MAESTRIA/code/population_structure/community_geography/gene_function_annotations.tsv
+          SNP-to-gene annotation was completed, but GO/PFAM/CAZyme
+          enrichment was skipped.
+======================================================================
+PIPELINE COMPLETED
+Results: /Storage/data1/isabella.gallego/MAESTRIA/community_geography_24G/conservative9
+======================================================================

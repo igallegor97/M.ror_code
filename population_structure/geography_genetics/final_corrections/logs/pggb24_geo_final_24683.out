@@ -1,0 +1,34 @@
+======================================================================
+FINAL PGGB24 GEOGRAPHY-GENETICS - SGE JOB
+Start      : 2026-08-04 12:06:49
+Job ID     : 24683
+Node       : elysium.bioinfo.cluster
+Threads    : 4
+======================================================================
+======================================================================
+FINAL PGGB24 GEOGRAPHY-GENETICS CORRECTIONS
+Start      : 2026-08-04 12:06:49
+Output     : /Storage/data1/isabella.gallego/MAESTRIA/geography_genetics_24G/final_corrected
+======================================================================
+
+[1/4] Recalculating corrected spatial statistics...
+Final corrected spatial-genetic statistics completed.
+
+[2/4] Generating corrected figures...
+Final polished spatial-genetic figures completed.
+
+[3/4] Auditing community profiles...
+      profile  communities_expected  communities_in_vcf_qc  communities_contributing_final_snps  communities_without_final_snps  raw_vcf_records  pre_filter_polymorphic_snps  retained_final_snps
+        all11                    11                     11                                    7                               4            51652                        41178                40484
+conservative9                     9                      9                                    6                               3            41527                        32802                32152
+
+[4/4] Building master summary...
+      profile samples_in_genetic_matrix retained_snps  spatial_samples  pairwise_comparisons  zero_km_pairs  expected_communities  communities_contributing_final_snps  mantel_pearson_r  mantel_pearson_p  high_precision_mantel_r  high_precision_mantel_p  mrm_geographic_estimate  mrm_geographic_p  mrm_r_squared  mrm_r_squared_p  balanced_pearson_median  balanced_pearson_q025  balanced_pearson_q975  balanced_slope_median  balanced_r_squared_median
+        all11                        24         40484               23                   253              3                    11                                    7          0.169339            0.0090                 0.236973                   0.0024                 0.064487            0.0006       0.079790           0.0028                 0.096863               0.089489               0.103883               0.048811                   0.057226
+conservative9                        24         32152               23                   253              3                     9                                    6          0.159394            0.0125                 0.246959                   0.0016                 0.062927            0.0010       0.071302           0.0033                 0.076596               0.068473               0.084005               0.045869                   0.049381
+
+======================================================================
+CORRECTIONS COMPLETED
+End        : 2026-08-04 12:07:43
+Results    : /Storage/data1/isabella.gallego/MAESTRIA/geography_genetics_24G/final_corrected
+======================================================================

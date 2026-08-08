@@ -1,0 +1,12 @@
+community	chromosome	syntenic_group	mapping_type	chromosome_length_bp	start_bp	end_bp	note
+community.0	Group10	Group10	partial_or_ambiguous				C26/CO8/CO84/E7 Group10; B3 absent
+community.1	Group2_or_Group10	Group2_and_B3_Group10	mixed_assignment				Mixed chromosome assignment; review before biological interpretation
+community.2			chromosome_scale				Fill from validated community-composition table
+community.3			chromosome_scale				Fill from validated community-composition table
+community.4			chromosome_scale				Fill from validated community-composition table
+community.5			chromosome_scale				Fill from validated community-composition table
+community.6			chromosome_scale				Fill from validated community-composition table
+community.7			chromosome_scale				No retained SNPs in final matrix
+community.8			chromosome_scale				Largest retained SNP contribution
+community.9			chromosome_scale				No retained SNPs in final matrix
+community.12			chromosome_scale				No retained SNPs in final matrix

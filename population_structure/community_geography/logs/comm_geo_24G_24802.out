@@ -1,0 +1,36 @@
+======================================================================
+COMMUNITY-LEVEL GENOMIC GEOGRAPHY PIPELINE
+Profile      : all11
+Minimum SNPs : 100
+Permutations : 9999
+Output       : /Storage/data1/isabella.gallego/MAESTRIA/community_geography_24G/all11
+======================================================================
+Per-community spatial analysis completed for profile all11.
+ rank   community chromosome  retained_snps  mantel_pearson_r  mantel_pearson_q  mrm_geographic_beta  mrm_geographic_q  mrm_r_squared  mrm_model_q                                      evidence_tier
+    1 community.8     Group6          16440          0.282948          0.016100             0.100083          0.005951       0.078983     0.025903 Tier 1: concordant FDR-supported geographic signal
+    2 community.1     Group2           8332          0.133160          0.171967             0.084194          0.005951       0.093484     0.025903  Tier 2: partially FDR-supported geographic signal
+    3 community.5     Group7           3942          0.059676          0.311100             0.093906          0.020069       0.060716     0.062423                Tier 3: positive exploratory signal
+    4 community.3     Group9           1640          0.153498          0.171967             0.060584          0.016802       0.052001     0.062423                Tier 3: positive exploratory signal
+    5 community.6     Group4           3547          0.056397          0.301350             0.060416          0.016802       0.055564     0.053905                Tier 3: positive exploratory signal
+    6 community.4     Group1           4162          0.055495          0.301350             0.076303          0.014001       0.051700     0.051338                Tier 3: positive exploratory signal
+    7 community.2    Group11           2421          0.064182          0.301350             0.023539          0.195720       0.017153     0.260726                Tier 3: positive exploratory signal
+
+[OK] Complete ranking saved to: /Storage/data1/isabella.gallego/MAESTRIA/community_geography_24G/all11/02_ranking/all11_community_geographic_ranking.tsv
+[OK] Top-community table saved to: /Storage/data1/isabella.gallego/MAESTRIA/community_geography_24G/all11/02_ranking/all11_top_geographic_communities.tsv
+                                       metric  value
+                         analyzed_communities      7
+       analyzed_communities_with_mapping_rows      7
+analyzed_communities_with_nonempty_chromosome      7
+                               mapping_issues      1
+null device 
+          1 
+Community/chromosome contribution figures completed.
+Annotated 40484 SNP features.
+[WARNING] Functional annotation table not found:
+          /Storage/data1/isabella.gallego/MAESTRIA/code/population_structure/community_geography/gene_function_annotations.tsv
+          SNP-to-gene annotation was completed, but GO/PFAM/CAZyme
+          enrichment was skipped.
+======================================================================
+PIPELINE COMPLETED
+Results: /Storage/data1/isabella.gallego/MAESTRIA/community_geography_24G/all11
+======================================================================

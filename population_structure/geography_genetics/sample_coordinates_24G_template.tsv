@@ -1,0 +1,25 @@
+sample_id	country	region_state	latitude	longitude	coordinate_precision	coordinate_source	notes
+C26	Costa Rica	Guayabo Abajo, Cartago			locality		
+B3	Bolivia	Porvenir, Caranavi, La Paz			locality		
+P5	Peru	Castillo Papayal, Huanuco			locality		
+Co52	Colombia	Lebrija, Santander			municipality		
+E7	Ecuador	Mocache, Los Rios			municipality		
+Co44	Colombia	San Jeronimo, Antioquia			municipality		
+CO8	Colombia	San Jeronimo, Antioquia			municipality		
+Co29	Colombia	La Suiza, Copoica, Santander			locality		
+Co82	Colombia	Lebrija, Santander			municipality		
+CO84	Colombia	Tumaco, Narino			municipality		
+Co25	Colombia	Rio Negro, Santander			municipality		
+Co74	Colombia	El Carmen de Chucuri, Santander			municipality		
+Co12	Colombia	Palestina, Caldas			municipality		
+Co43	Colombia	Taraza, Antioquia			municipality		
+Co45	Colombia	Valdivia, Antioquia			municipality		
+Co58	Colombia	Caparrapi, Cundinamarca			municipality		
+Co65	Colombia	Bucarasica, Norte de Santander			municipality		
+Co67	Colombia	Marsella, Risaralda			municipality		
+Mr017	Ecuador	Cerecita, Guayas			municipality		
+Mr020	Ecuador	Buena Fe, Los Rios			municipality		
+Mr030	Ecuador	Mocache, Los Rios			municipality		
+A4295	Costa Rica	Unknown			missing		No usable locality available
+MCA2952	Mexico	Chiapas			state		Use only in sensitivity analysis if exact locality cannot be resolved
+MCA2997	Ecuador	Los Rios			state		Use only in sensitivity analysis if exact locality cannot be resolved
