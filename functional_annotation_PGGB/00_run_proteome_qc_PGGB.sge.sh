@@ -1,10 +1,38 @@
 #!/usr/bin/env bash
-#$ -cwd
+
+#$ -q all.q
 #$ -V
+#$ -cwd
 #$ -j y
-#$ -N PB_QC
+#$ -N pggb_func_qc
 #$ -pe smp 1
+
+# =============================================================
+# PacBio proteome validation and normalization (SGE array)
+#
+# Usage:
+#   qsub -t 1-5 00_run_proteome_qc_PGGB.sge.sh
+# =============================================================
+
 set -euo pipefail
-source pipeline_config_PGGB.sh; init_sample
+
+: "${PROJECT_ROOT:?PROJECT_ROOT was not exported by the submission driver}"
+source "$PROJECT_ROOT/pipeline_config_PGGB.sh"
+initialize_array_sample
+
 mkdir -p "$RESULTS/00_qc/fasta" "$RESULTS/00_qc/id_maps" "$RESULTS/00_qc/stats"
-python3 00_validate_proteomes_PGGB.py "$INPUT_FASTA" "$QC_FASTA" "$RESULTS/00_qc/id_maps/${SAMPLE}.id_map.tsv" "$RESULTS/00_qc/stats/${SAMPLE}.qc.tsv"
+
+echo "============================================================="
+echo "PROTEOME QC"
+echo "Sample       : $SAMPLE"
+echo "Input        : $INPUT_FASTA"
+echo "============================================================="
+
+python3 "$PROJECT_ROOT/00_validate_proteomes_PGGB.py" \
+    "$INPUT_FASTA" \
+    "$QC_FASTA" \
+    "$RESULTS/00_qc/id_maps/${SAMPLE}.id_map.tsv" \
+    "$RESULTS/00_qc/stats/${SAMPLE}.qc.tsv"
+
+echo "PROTEOME QC COMPLETED: $SAMPLE"
+

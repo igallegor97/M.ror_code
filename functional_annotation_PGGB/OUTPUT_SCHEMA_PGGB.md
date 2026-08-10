@@ -1,18 +1,18 @@
-# Esquema normalizado
+# Normalized functional-annotation schema
 
-La clave estable es `(sample_id, protein_id)`.
+The stable master key is `(sample_id, protein_id)`.
 
-| Campo | Contenido |
+| Column | Description |
 |---|---|
-| sample_id | muestra del manifiesto |
-| protein_id | primer campo del encabezado FASTA |
-| eggnog_description | descripción transferida por eggNOG |
-| GO_terms | términos GO de eggNOG |
-| KEGG_ko | ortologías KEGG de eggNOG |
-| pfam_domains | modelos Pfam-A significativos por `--cut_ga` |
-| cazy_families | familias CAZy detectadas en la salida dbCAN |
-| signalp_prediction | línea de predicción SignalP 5 |
+| `sample_id` | PacBio assembly identifier from the manifest |
+| `protein_id` | First field of the normalized FASTA header |
+| `eggnog_description` | eggNOG-mapper functional description |
+| `GO_terms` | Gene Ontology terms transferred by eggNOG-mapper |
+| `KEGG_ko` | KEGG orthology assignments from eggNOG-mapper |
+| `pfam_domains` | Significant Pfam-A models detected with `--cut_ga` |
+| `cazy_families` | CAZy families extracted from run_dbCAN output |
+| `signalp_prediction` | SignalP 5 prediction record |
 
-Las columnas externas se incorporarán tras revisar el formato exacto descargado;
-no se mezclan silenciosamente versiones/formats de servidores web.
+Native tool outputs remain authoritative for coordinates, scores, probabilities,
+thresholds and detailed evidence.
 

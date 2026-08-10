@@ -1,7 +1,6 @@
 sample_id	proteome_fasta
-PacBio_1	/ABSOLUTE/PATH/TO/PacBio_1.proteins.faa
-PacBio_2	/ABSOLUTE/PATH/TO/PacBio_2.proteins.faa
-PacBio_3	/ABSOLUTE/PATH/TO/PacBio_3.proteins.faa
-PacBio_4	/ABSOLUTE/PATH/TO/PacBio_4.proteins.faa
-PacBio_5	/ABSOLUTE/PATH/TO/PacBio_5.proteins.faa
-
+MrorB3	/Storage/data1/isabella.gallego/MAESTRIA/results_pacbio/MrorB3.groups_proteins.fa
+MrorC26	/Storage/data1/isabella.gallego/MAESTRIA/results_pacbio/MrorC26.groups_proteins.fa
+MrorCO8	/Storage/data1/isabella.gallego/MAESTRIA/results_pacbio/MrorCO8.groups_proteins.fa
+MrorCO84	/Storage/data1/isabella.gallego/MAESTRIA/results_pacbio/MrorCO84.groups_proteins.fa
+MrorE7	/Storage/data1/isabella.gallego/MAESTRIA/results_pacbio/MrorE7.groups_proteins.fa

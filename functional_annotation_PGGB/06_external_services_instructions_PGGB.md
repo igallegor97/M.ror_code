@@ -1,39 +1,40 @@
-# Servicios externos: instrucciones y trazabilidad
-
-Use siempre los portales oficiales o Galaxy Europe, anote fecha, versión visible,
-parámetros y conserve el archivo original descargado. Los límites de carga pueden
-cambiar; divida el FASTA por muestra o en lotes sin renombrar los IDs.
+# External functional-annotation services
 
 ## DeepTMHMM
 
-Para cada muestra, cargue `<muestra>.all_proteins.faa` desde `results/06_external`.
-Seleccione predicción de topología para proteínas; descargue el TSV/GFF (y el
-archivo de topologías si existe). Guárdelo en:
+Upload each `results/06_external/<sample>.all_proteins.faa` file to the official
+DeepTMHMM service. Download the complete prediction and topology files and save
+them under:
 
-`results/06_external/deeptmhmm/<muestra>/`
+```text
+results/06_external/deeptmhmm/<sample>/
+```
 
-Interpretación para secretoma clásico: conservar SignalP positivo y excluir
-proteínas con hélices transmembrana posteriores al péptido señal. No convierta
-automáticamente todas las proteínas sin TM en secretadas.
+For a conservative classical secretome, combine a positive SignalP prediction
+with the absence of additional transmembrane helices after the signal-peptide
+region. A protein without a transmembrane helix is not automatically secreted.
 
 ## EffectorP 3
 
-Cargue `<muestra>.signalp_secreted.faa`. Si el FASTA aparece con sufijo `.MISSING`,
-revise el nombre de la salida madura de SignalP y cópiela con ese nombre. Elija
-modo de proteínas fúngicas cuando el portal lo solicite. Descargue la tabla completa
-en `results/06_external/effectorp3/<muestra>/`. Conserve probabilidades/clases, no
-solo una lista binaria.
+Upload each `<sample>.signalp_secreted.faa` and select the fungal protein mode
+when requested. Preserve probabilities and prediction classes under:
 
-## InterProScan selectivo / Galaxy Europe
+```text
+results/06_external/effectorp3/<sample>/
+```
 
-1. Añada a `priority_gene_ids_PGGB.txt` los IDs de genes candidatos (p. ej. top 100,
-   hotspots, secretados o efectores), uno por línea.
-2. Ejecute `bash 05_prepare_external_services_PGGB.sh`.
-3. Cargue `priority_candidates.faa` en InterPro o Galaxy Europe.
-4. En Galaxy, busque InterProScan, seleccione proteína, TSV + GFF3, y las bases
-   disponibles que aporten información adicional (por ejemplo PANTHER, SUPERFAMILY,
-   PRINTS, PROSITE). Pfam ya se analizó localmente, por lo que repetirla es opcional.
-5. Active GO/pathways si la versión lo permite. Descargue el historial o workflow,
-   el TSV y el GFF3 en `results/06_external/interproscan/`.
+EffectorP results are computational candidates, not experimental evidence.
 
-InterProScan es validación selectiva, no requisito para que finalice la tabla maestra.
+## Selective InterProScan or Galaxy Europe
+
+1. Add one prioritized protein ID per line to `priority_gene_ids_PGGB.txt`.
+2. Run `bash 05_prepare_external_services_PGGB.sh`.
+3. Upload `results/06_external/priority_candidates.faa`.
+4. Request TSV and GFF3 outputs and GO/pathway mappings when available.
+5. Record the date, tool version, selected databases and parameters.
+6. Save results under `results/06_external/interproscan/`.
+
+Pfam has already been searched locally. Selecting complementary InterPro member
+databases provides the greatest additional value. InterProScan is a selective
+validation layer and is not required for the local master table.
+
